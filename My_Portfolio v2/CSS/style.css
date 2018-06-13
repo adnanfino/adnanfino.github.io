@@ -1,0 +1,519 @@
+/*Homepage*/
+.img-container
+{
+    background-image: url(../Images/homebanner.jpeg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+	text-align: center;
+}
+
+.gmail-icon{
+	float: right;
+  width:74px;
+  height: 85px;
+	padding-right: 8px;
+	padding-left: 3px;
+	padding-top: 18px;
+	padding-bottom: 25px;
+}
+.facebook-icon{
+	float: right;
+    width:70px;
+    height: 60px;
+	padding-right: 10px;
+	padding-top: 8px;
+}
+.linkedin-icon{
+	float: right;
+    width:70px;
+    height: 70px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 8px;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	border: 3px solid #ffffff;
+	font-size: 50pt;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #000;
+}
+.home{
+	text-align:center;
+	font-family:sans serif;
+	color: #333;
+	padding-top: 20px;
+
+}
+.home-text{
+	text-align: center;
+	color:  #808080;
+	font-family: Arial Narrow;
+	font-size: 25pt;
+}
+
+#footer{
+  width: 100%;
+  height:150px;
+  background-color:#333;
+  text-align: center;
+  padding-bottom:20px;
+
+}
+
+/*digital graphics*/
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 100px;
+
+}
+
+.dg-img{
+  background-image: url(../Images/banner-graphic-design.png);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+text-align: center;
+}
+.dg-title{
+text-align: center;
+font-family: Josefin Sans;
+}
+.dg-text{
+  font-size: 20pt;
+  color:#1c9cbf;
+  text-align: center;
+  font-family: Josefin Sans;
+}
+.web-ad{
+  width:160px;
+  height: 400px;
+  padding-left: 50px;
+
+}
+.print-ad{
+	width:500px;
+	height: 400px;
+
+}
+.head-1{
+	padding: 30px;
+	font-weight: bold;
+	color: #999;
+	font-family: sans-serif;
+	font-size: 20pt;
+	padding-top:10px;
+}
+
+
+
+/*
+.print-text{
+	padding: 30px;
+	color:#000;
+	text-align:left;
+	width: 100%;
+	font-size: 15pt;
+	padding-top:10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+*/
+.dg-para{
+  text-align: center;
+  font-size: 20pt;
+  font-family: Josefin Sans;
+  width: auto;
+}
+/*technology systems*/
+.ts-img{
+
+    background-image: url(../Images/TechBanner.jpg);
+    height: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+  text-align: center;
+}
+.ts-text{
+  font-size: 18pt;
+  color: #000033;
+  text-align: center;
+  font-family: Josefin Sans;
+}
+.ts-title{
+text-align: center;
+font-family: Josefin Sans;
+color:#000066;
+}
+.ts-h2{
+  text-align: center;
+  color: #000066;
+  font-family: Josefin Sans;
+
+}
+/*software development*/
+.sd-img{
+  background-image: url(../Images/banner-software-development.png);
+  height: 270px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+text-align: center;
+}
+.sd-text{
+  font-size: 18pt;
+  color: #00a3cc;
+  text-align: center;
+  font-family: Josefin Sans;
+}
+.sd-title{
+text-align: center;
+font-family: Josefin Sans;
+color:#ffcc00;
+}
+.sd-h2{
+
+	text-align: center;
+    font-family: Josefin Sans;
+    color:#ffcc00;
+	font-size: 30pt;
+
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column-2 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/*automated system*/
+.as-img{
+  background-image: url(../Images/automated-banner.jpg);
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.AS-tilte{
+	text-align: center;
+	color: #000;
+	font-family: sans-serif;
+	font-size: 20pt;
+}
+.as-title{
+text-align: center;
+font-family: Josefin Sans;
+color:#000066;
+
+}
+.as-text{
+  font-size: 18pt;
+  color: #000033;
+  text-align: center;
+  font-family: Josefin Sans;
+
+}
+/*computer networks*/
+.cn-img{
+  background-image: url(../Images/Banner-Network.jpg);
+  height: 270px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+text-align: center;
+}
+.cn-text{
+  font-size: 18pt;
+  color: #000033;
+  text-align: center;
+  font-family: Josefin Sans;
+}
+.cn-title{
+  text-align: center;
+  font-family: Josefin Sans;
+  color:#000080;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.cn-column {
+  float: left;
+  width: 60%;
+  padding: 5px;
+}
+.topo-1{
+	padding-left: 40px;
+	width:700px;
+	height: 700px;
+
+}
+.topo-2{
+	border: 2px solid #999;
+}
+.cn-final{
+display: block;
+margin-left: auto;
+margin-right: auto;
+border: 1px solid #000;
+
+}
+.title-2{
+	text-align: center;
+	font-family: Josefin Sans;
+	color: #000080;
+}
+/*online world*/
+.ow-img{
+  background-image: url(../Images/orm-banner.jpg);
+  height: 270px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+text-align: center;
+}
+.ow-text{
+  font-size: 20pt;
+  color:#cc0000;
+  text-align: center;
+  font-family: Josefin Sans;
+}
+.exam-1{
+	padding-left:20px;
+
+}
+/*web development page*/
+.web-img{
+background-image: url(../Images/banner-web-development.png);
+    height: 270px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+	text-align: right;
+}
+.wd-title{
+  text-align: center;
+  font-family: Josefin Sans;
+  color:#e6b800;
+}
+.wd-text{
+    font-size: 15pt;
+    color:#1c9cbf;
+    text-align: center;
+    font-family: Josefin Sans;
+}
+.vedio{
+ padding-left: 20px;
+}
+.wd-h2{
+  text-align: center;
+  color: #000;
+  font-family: Josefin Sans;
+}
+.paragraph{
+	text-align: left;
+	font-size: 15pt;
+	width: 60%
+	padding-left: 300px;
+    color:#000;
+    font-family: sans-serif;
+    padding-bottom: 50px;
+	padding-right:12px;
+}
+.about-header{
+  font-family: fantasy;
+  font-size: 30pt;
+  color: #b30000;
+  text-align: left;
+  padding-left: 20px;
+
+
+}
+.my-pic{
+   float: left;
+   width: 250px;
+   height: 250px;
+
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color:  #333;
+  }
+  /*Contact page */
+.contact-img{
+      background-image: url(../Images/contact-banner.jpeg);
+      height: 270px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      width: 100%;
+  	  text-align: right;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #990000;              #4CAF50
+    color: #999;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	color: #fff;
+}
+
+input[type=submit]:hover {
+    background-color: #a6a6a6;
+	color: #000;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.contact-title{
+	font-family: Ostrich Sans;
+	text-align: center;
+	font-size: 20pt;
+}
+/*
+li{
+	font-family: Josefin Slab;
+	font-size: 17pt;
+	list-style-type: none;
+}
+*/
+.try{
+	font-weight: bold;
+	color: #990000;
+}
+  /*digital portfolio*/
+
+.dp-img{
+  background-image: url(../Images/dp-banner.jpg);
+  height: 270px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  }
+  * {
+    box-sizing: border-box;
+}
+
+.dp-column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.dP-column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width: 500px) {
+    .dp-column {
+        width: 100%;
+    }
+}
+.dp-title{
+	 text-align: center;
+     font-family: Josefin Sans;
+     color:#e60000;
+}
+.dp-text{
+    font-size: 15pt;
+    color:#878585;
+    text-align: center;
+    font-family: Josefin Sans;
+}
